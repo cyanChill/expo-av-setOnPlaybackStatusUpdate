@@ -13,3 +13,23 @@ In SDK 50, this was all true. However, in SDK 51, `onPlaybackStatusUpdate` is ne
 SDK 50: [https://snack.expo.dev/@missingcore/setonplaybackstatusupdate-sdk_50?platform=android](https://snack.expo.dev/@missingcore/setonplaybackstatusupdate-sdk_50?platform=android)
 
 SDK 51: [https://snack.expo.dev/@missingcore/setonplaybackstatusupdate-sdk_51?platform=android](https://snack.expo.dev/@missingcore/setonplaybackstatusupdate-sdk_51?platform=android)
+
+# Getting Started
+
+1. Go to directory of SDK version you want to test.
+
+```
+cd sdk-51
+```
+
+2. Install dependencies.
+
+```
+npm install
+```
+
+3. Start the app.
+
+```
+npx expo start --clear
+```

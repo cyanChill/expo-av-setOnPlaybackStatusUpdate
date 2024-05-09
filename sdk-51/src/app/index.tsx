@@ -25,7 +25,7 @@ export default function AudioPlayground() {
       soundRef.current.setOnPlaybackStatusUpdate(onPlaybackStatusUpdate);
       setLoaded(true);
     }
-  }, []);
+  }, [onPlaybackStatusUpdate]);
 
   const playPauseTrack = useCallback(async () => {
     if (isPlaying) await soundRef.current.pauseAsync();
@@ -35,7 +35,7 @@ export default function AudioPlayground() {
 
   useEffect(() => {
     loadSound();
-  }, []);
+  }, [loadSound]);
 
   return (
     <View

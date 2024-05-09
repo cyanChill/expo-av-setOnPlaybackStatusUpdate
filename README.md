@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> Fixed with `expo-av@14.0.4` — working with development build, not yet with Expo Go (probably fixed in a future update).
+
 # [Android] `Sound.setOnPlaybackStatusUpdate()` Issue From SDK 50 to SDK 51
 
 According to the docs, the expected behavior of `Sound.setOnPlaybackStatusUpdate(onPlaybackStatusUpdate)` is:

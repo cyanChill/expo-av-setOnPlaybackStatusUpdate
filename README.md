@@ -1,7 +1,7 @@
 > [!IMPORTANT]  
 > Fixed with `expo-av@14.0.4` — working with development build, not yet with Expo Go (probably fixed in a future update).
 >
-> **Edit 5/14/2024:** Seems to work in Expo Go as seen in the [SDK 51 Snack](https://snack.expo.dev/@missingcore/setonplaybackstatusupdate-sdk_51?platform=android).
+> **Edit 5/14/2024:** Seems to work in Expo Go as seen in the [SDK 51 Snack](https://snack.expo.dev/@missingcore/setonplaybackstatusupdate-sdk_51?platform=android) (probably fixed with `expo@51.0.6`).
 
 # [Android] `Sound.setOnPlaybackStatusUpdate()` Issue From SDK 50 to SDK 51
 
